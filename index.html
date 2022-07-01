@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/nav.css">
         <!-- Make the section for the drop down menu for each header -->
         <script src="js/nav.js"></script>
+        <script src="js/dropdown.js"></script>
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="css/resources.css">
@@ -20,6 +21,7 @@
         <!-- Add MES logo -->
         <link rel="shortcut icon" href="images/MES_logo.png" type="image/x-icon">
         <link rel="icon" href="images/MES_logo.png" type="image/x-icon">
+        <link rel="icon" type="image/x-icon" href="/images/IMG_4055.ico">
         <!-- and UMich logo -->
         <link rel="shortcut icon" href="images/UM_logo.png" type="image/x-icon">
         <link rel="icon" href="images/UM_logo.png" type="image/x-icon">
@@ -34,13 +36,14 @@
                 <div class="logo">
                     <a href="index.html"><img src="images/MES_logo.png" alt="Michigan Muslim Engineering Society Logo"></a>
                 </div>
-                <div class="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="classes.html">Classes</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
+                <div class="dropdown">
+                    <button onClick="dropdown()" class="dropbtn">Dropdown (replace with image)</button>
+                    <div id="dropList" class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="resources.html">Resources</a>
+                        <a href="classes.html">Classes</a>
+                        <a href="about.html">About</a> 
+                    </div>
                 </div>
             </div>
         </div>
